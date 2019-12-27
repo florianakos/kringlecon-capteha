@@ -17,7 +17,7 @@ sudo python3 -m pip install tensorflow_hub   #this one may or may not be needed 
 
 ## Training the ML Model based on sample images in `./capteha_images/` provided by Krampus:
 
-```python
+```
 python3 retrain.py --image_dir ./capteha_images/
 ```
 <sub><sup>`retrain.py` is a slightly modified version of https://raw.githubusercontent.com/tensorflow/hub/master/examples/image_retraining/retrain.py</sup></sub>
@@ -35,7 +35,7 @@ chmod 755 predict_images_using_trained_model.py
 
 ## Solving the CAPTEHA objective:
 
-```python
+```
 python3 capteha_api.py
 ```
 
