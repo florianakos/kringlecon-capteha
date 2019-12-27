@@ -17,6 +17,8 @@ sudo python3 -m pip install tensorflow_hub   #this one may or may not be needed 
 
 ## Training the ML Model based on images from Krampus:
 
+This will take a long time on 12000 images!
+
 ```
 python3 retrain.py --image_dir ./capteha_images/
 ```
