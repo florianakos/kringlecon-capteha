@@ -2,6 +2,9 @@
 
 Adapted from https://github.com/chrisjd20/img_rec_tf_ml_demo
 
+Goal of the challenge: solve the CAPTEHA on the website: https://fridosleigh.com/
+
+![CAPTEHA](capteha.png)
 
 ## Installation:
 
