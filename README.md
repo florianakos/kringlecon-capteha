@@ -15,7 +15,7 @@ sudo python3 -m pip install --upgrade tensorflow==1.15
 sudo python3 -m pip install tensorflow_hub   #this one may or may not be needed in order to run
 ```
 
-## Training the ML Model based on sample images in `./capteha_images/` provided by Krampus:
+## Training the ML Model based on images from Krampus:
 
 ```
 python3 retrain.py --image_dir ./capteha_images/
@@ -27,13 +27,15 @@ This will create two files we will be using at:
 1. `/tmp/retrain_tmp/output_graph.pb`     - Trained Machine Learning Model
 2. `/tmp/retrain_tmp/output_labels.txt`   - Labels for Images
 
-## Predicting Testing Images in the `unknown_images` folder based on our trained Model:
+## Testing prediction on  `unknown_images` using the trained Model:
 ```
 chmod 755 predict_images_using_trained_model.py
 ./predict_images_using_trained_model.py
 ```
 
 ## Solving the CAPTEHA objective:
+
+Remember to update your email in the source code to get the code from the Frido Sleigh challenge:
 
 ```
 python3 capteha_api.py
